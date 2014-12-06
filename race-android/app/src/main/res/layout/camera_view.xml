@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:weightSum="1">
+
+
+    <!--<com.yourcustom.OverlayView-->
+        <!--android:id="@+id/overlay" android:layout_width="fill_parent"-->
+        <!--android:layout_height="fill_parent">-->
+    <!--</com.yourcustom.OverlayView>-->
+
+
+    <SurfaceView
+        android:id="@+id/surfaceView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <ToggleButton
+        android:layout_width="132dp"
+        android:layout_height="100dp"
+        android:text="Display"
+        android:id="@+id/btn_switch"
+        android:layout_weight="0.12"
+        android:layout_gravity="left|bottom"/>
+
+    <SurfaceView
+        android:layout_width="134dp"
+        android:layout_height="107dp"
+        android:id="@+id/surfaceView"
+        android:layout_gravity="left|bottom"
+        android:focusableInTouchMode="false"/>
+
+
+</FrameLayout>

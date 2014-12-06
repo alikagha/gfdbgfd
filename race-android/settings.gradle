@@ -1,0 +1,1 @@
+include ':app', ':SDK_NET', ':Hawk', ':SDK_Bluetooth'
